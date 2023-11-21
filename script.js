@@ -1,3 +1,5 @@
+const myShelf = [];
+
 function Book(title, author, pages, read) {
     this.title = title;
     this.author = author;
@@ -6,4 +8,14 @@ function Book(title, author, pages, read) {
     this.info = function() {
         return `${title} by ${author}, ${pages} pages, ${read ? 'read' : 'not read yet'}.`
     }
+}
+
+function addBookToLibrary(book) {
+    myShelf.push(book);
+}
+
+function showBooks() {
+    myShelf.forEach((book) => {
+        
+    })
 }
