@@ -25,3 +25,7 @@ body {
 .book {
     display: grid;
 }
+
+.book.spine h2 {
+    rotate: 90deg;
+}
