@@ -1,10 +1,6 @@
-const myShelf = [
-    {title: 'The Communist Manifesto',
-    author: 'Marx',
-    pages: 420,
-    read: true}
-];
+const myShelf = [];
 const bookshelf = document.querySelector('.shelf');
+const card = document.querySelector('.card');
 
 function Book(title, author, pages, read) {
     this.title = title;
